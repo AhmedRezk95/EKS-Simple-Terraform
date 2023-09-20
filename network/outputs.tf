@@ -5,11 +5,11 @@ output "vpc_id" {
 output "vpc_cidr" {
     value = aws_vpc.main.cidr_block
 }
-
+# irrelevant for this practice
 output "subnet_id_p1" {
     value = aws_subnet.public-1.id
 }
-
+# irrelevant for this practice
 output "subnet_id_p2" {
     value = aws_subnet.public-2.id
 }

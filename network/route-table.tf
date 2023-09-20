@@ -1,3 +1,4 @@
+# irrelevant for this practice
 resource "aws_route_table" "public-r-1" {
   vpc_id = aws_vpc.main.id
 

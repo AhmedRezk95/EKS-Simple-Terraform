@@ -8,11 +8,12 @@ variable "provider_region" {
   
 }
 
+# irrelevant for this practice
 variable "subnet_public1" {
   type        = string
   default     = "10.0.1.0/24"
 }
-
+# irrelevant for this practice
 variable "subnet_public2" {
   type        = string
   default     = "10.0.10.0/24"

@@ -1,3 +1,4 @@
+# irrelevant for this practice
 resource "aws_eip" "elp1" {
   
   # To ensure proper ordering, it is recommended to add an explicit dependency

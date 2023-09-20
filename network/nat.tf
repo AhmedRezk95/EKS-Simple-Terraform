@@ -1,3 +1,4 @@
+# irrelevant for this practice
 resource "aws_nat_gateway" "nat-1" {
   allocation_id = aws_eip.elp1.id
   subnet_id     = aws_subnet.public-1.id

@@ -1,3 +1,4 @@
+# irrelevant for this practice
 resource "aws_subnet" "public-1" {
   vpc_id     = aws_vpc.main.id
   cidr_block = var.subnet_public1
@@ -8,7 +9,7 @@ resource "aws_subnet" "public-1" {
     Name = "public-1"
   }
 }
-
+# irrelevant for this practice
 resource "aws_subnet" "public-2" {
   vpc_id     = aws_vpc.main.id
   cidr_block = var.subnet_public2
