@@ -37,3 +37,8 @@ variable "subnet_private2" {
   type    = string
   default = "10.0.5.0/24"
 }
+
+variable "nodes_instance_types" {
+  type    = string
+  default = "t2.micro"
+}
